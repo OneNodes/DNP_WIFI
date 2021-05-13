@@ -9,8 +9,8 @@ services:
     image: "wifi.dnp.dappnode.eth:0.2.5"
     container_name: DAppNodeCore-wifi.dnp.dappnode.eth
     environment:
-      - SSID=DAppNodeWIFI
-      - WPA_PASSPHRASE=dappnode
+      - SSID=OneNodesWIFI
+      - WPA_PASSPHRASE=OneNodes
       - NAT=true
       - CHANNEL=11
       - MODE=admin
